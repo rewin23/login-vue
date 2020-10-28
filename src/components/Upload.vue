@@ -10,10 +10,11 @@
   import FileUpload from 'v-file-upload'
   Vue.use(FileUpload)
   export default {
+    name: 'Upload',
     data(){
       return {
         file: '',
-        url: 'https://utils.lobulo.dev/xlsxload/publifon/load-xlsx',
+        url: 'https://utils.lobulo.dev/cv/pharmacies/api/locales/xlsx/load-xlsx',
         filesUploaded: [],
         accept: 'xlsx'
       }

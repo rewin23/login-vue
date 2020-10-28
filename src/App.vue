@@ -2,14 +2,18 @@
 
   <div id="app">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
-    <router-view></router-view>
+    <Upload></Upload>
   </div>
 
 </template>
   
 
 <script>
+import Upload from './components/Upload.vue';
 export default {
+  components: {
+    Upload
+  },
   name: 'app',
 }
 
