@@ -15,7 +15,7 @@
       return {
         file: '',
         //url: 'https://utils.lobulo.dev/cv/pharmacies/api/locales/xlsx/load-xlsx',
-        url: 'https://utils.lobulo.dev/cv/locales/fybeca/api/xlsx/load-xlsx',
+        url: 'https://utils.lobulo.dev/cv/locales/colombia/api/xlsx/load-xlsx',
         filesUploaded: [],
         accept: 'xlsx'
       }
